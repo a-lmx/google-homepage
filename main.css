@@ -1,0 +1,154 @@
+/*div {
+	border: 1px solid black;
+}*/
+
+*:focus {
+	outline: none;
+}
+
+body {
+	font-family: arial, sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	float: left;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header	{
+	position: absolute;
+	top: 0;
+	right: 0;
+	float: right;
+	height: 35px;
+	line-height: 35px;
+	font-size: 10pt;
+}
+
+#r_header {
+	position: relative;
+	top: 10px;
+	right: 0;
+	line-height: 30px;
+}
+
+#header li {
+	display: inline-block;
+	margin: 0 27px 0 0;
+
+}
+
+#signIn {
+	width: 69px;
+	height: 30px;
+	display: inline-block;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	font-weight: bold;
+	line-height: 30px;
+	border-radius: 2px;
+}
+
+#signIn a {
+	color: #fff;
+}
+
+#content {
+	position: absolute;
+	width: 100%;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	position: relative;
+	width: 269px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo img {
+	width: 269px;
+	height:	95px;
+}
+
+#search {
+	position: relative;
+	width: 602px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;	
+}
+
+input {
+	height: 25px;
+	width: 600px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 12pt;
+}
+
+button {
+	background-color: #f2f2f2;
+	font-weight: bold;
+	height: 30px;
+}
+
+input, button{
+	border: 1px solid #e4e4e4;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 35px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 10pt;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 35px;
+	text-align: center;
+}
+
+#l_footer {
+	float: left;
+	white-space: nowrap;
+}
+
+#r_footer {
+	float: right;
+	margin-right: 30px;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+}
+
+#footer li {
+	width: 120px;
+}
+#footer a {
+	color: #666;
+	display: inline-block;
+	padding: 0 0 0 27px;
+}
